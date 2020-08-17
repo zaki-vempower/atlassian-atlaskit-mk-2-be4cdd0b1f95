@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switcher should be able to disable headers with "disableHeadings" 1`] = `
+<NavigationAnalyticsContext
+  data={
+    Object {
+      "attributes": Object {
+        "itemsCount": 0,
+      },
+    }
+  }
+>
+  <SwitcherWrapper
+    appearance="drawer"
+  >
+    <WithAnalyticsEvents(class_3)
+      data={
+        Object {
+          "adminLinks": Array [],
+          "fixedLinks": Array [],
+          "joinableSiteLinks": Array [],
+          "licensedProducts": Array [],
+          "numberOfSites": 0,
+          "suggestedProducts": Array [],
+        }
+      }
+      subject="atlassianSwitcher"
+    />
+    <WithAnalyticsEvents(class_2)
+      data={
+        Object {
+          "duration": 0,
+        }
+      }
+      subject="atlassianSwitcherJoinableSites"
+    />
+    <Component
+      sectionId="switchTo"
+      title={null}
+    />
+    <Component
+      sectionId="join"
+      title={null}
+    />
+    )}
+    <Component
+      sectionId="recent"
+      title={null}
+    />
+    <Component
+      sectionId="customLinks"
+      title={null}
+    />
+  </SwitcherWrapper>
+</NavigationAnalyticsContext>
+`;
+
+exports[`Switcher should render sections with headers by default 1`] = `
+<NavigationAnalyticsContext
+  data={
+    Object {
+      "attributes": Object {
+        "itemsCount": 0,
+      },
+    }
+  }
+>
+  <SwitcherWrapper
+    appearance="drawer"
+  >
+    <WithAnalyticsEvents(class_3)
+      data={
+        Object {
+          "adminLinks": Array [],
+          "fixedLinks": Array [],
+          "joinableSiteLinks": Array [],
+          "licensedProducts": Array [],
+          "numberOfSites": 0,
+          "suggestedProducts": Array [],
+        }
+      }
+      subject="atlassianSwitcher"
+    />
+    <WithAnalyticsEvents(class_2)
+      data={
+        Object {
+          "duration": 0,
+        }
+      }
+      subject="atlassianSwitcherJoinableSites"
+    />
+    <Component
+      sectionId="switchTo"
+      title={
+        <Unknown
+          defaultMessage="Switch to"
+          description="In a context in which users are able to switch between products, this text is the title of the category displaying the products the user is able to switch to."
+          id="fabric.atlassianSwitcher.switchTo"
+        />
+      }
+    />
+    <Component
+      sectionId="join"
+      title={
+        <Unknown
+          defaultMessage="Join"
+          description="Section Header in Atlassian Switcher. To set the expectation of what items would be shown in following section. Shown when an user has at least one joinable site via Domain Enabled Sign up with common collaborators."
+          id="fabric.atlassianSwitcher.join"
+        />
+      }
+    />
+    )}
+    <Component
+      sectionId="recent"
+      title={
+        <Unknown
+          defaultMessage="Recent"
+          description="In a context in which users are able to view recent projects or spaces they've viewed, this text is the title of the section displaying all the recent projects or spaces."
+          id="fabric.atlassianSwitcher.recent"
+        />
+      }
+    />
+    <Component
+      sectionId="customLinks"
+      title={
+        <Unknown
+          defaultMessage="More"
+          description="In a context in which users are able to view predefined custom links, this text is the title of the section displaying all existing custom links."
+          id="fabric.atlassianSwitcher.more"
+        />
+      }
+    />
+  </SwitcherWrapper>
+</NavigationAnalyticsContext>
+`;
